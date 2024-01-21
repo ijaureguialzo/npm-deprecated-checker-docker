@@ -1,20 +1,20 @@
 # npm-deprecated-checker-docker
 
- _________________________________________ 
-/ Now of my threescore years and ten,     \
-| Twenty will not come again, And take    |
-| from seventy springs a score, It leaves |
-| me only fifty more.                     |
-|                                         |
-| And since to look at things in bloom    |
-| Fifty springs are little room, About    |
-| the woodlands I will go To see the      |
-| cherry hung with snow.                  |
-|                                         |
-\ -- A.E. Housman                         /
- ----------------------------------------- 
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+Busca dependencias obsoletas de npm.
+
+## Construir el contenedor
+
+```shell
+make build
+```
+
+## Uso
+
+```shell
+./dep-check.sh TOKEN_GITHUB directorio_que_contiene_el_package_json
+```
+
+## Referencias
+
+- [Dependency Deprecation Checker](https://github.com/Aqua-Nautilus/Dependency-Deprecated-Checker)
+- [python - Official Image | Docker Hub](https://hub.docker.com/_/python)
