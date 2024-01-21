@@ -10,6 +10,8 @@ make build
 
 ## Uso
 
+Crear un [token de GitHub](https://github.com/settings/tokens) de tipo clásico y no seleccionar ningún permiso.
+
 ```shell
 ./dep-check.sh TOKEN_GITHUB directorio_que_contiene_el_package_json
 ```
